@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git branch: 'main', url: '<your-repo-url>'
+                git branch: 'master', url: 'https://github.com/Nitin769/Devops-node-app.git'
             }
         }
 
